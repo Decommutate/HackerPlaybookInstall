@@ -11,8 +11,7 @@ apt-get update
 apt-get dist-upgrade
 
 #Setting up Metasploit database
-pause "Press Enter to setup Metasploit database (note this does NOT
-enable Metasploit Logging"
+pause "Press Enter to setup Metasploit database (note this does NOT enable Metasploit Logging"
 service postgresql start
 service metasploit start
 
